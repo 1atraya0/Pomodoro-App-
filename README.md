@@ -1,6 +1,8 @@
 # Pomodoro Timer with Face Detection
 
 This is a web application that combines a Pomodoro timer with real-time face detection using OpenCV. The timer tracks the time a person is present in front of the webcam and pauses when they leave the frame. This project aims to enhance focus and productivity while also monitoring face presence.
+![Screenshot 2024-10-07 000545](https://github.com/user-attachments/assets/49f5e60b-e721-4a65-9ff9-1f98934088f5)
+
 
 ## Features
 
