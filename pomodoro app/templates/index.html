@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/flip-clock.css') }}">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="clock">
+            <div class="digit">
+                <div class="upper">0</div>
+                <div class="lower">0</div>
+            </div>
+            <div class="digit">
+                <div class="upper">0</div>
+                <div class="lower">0</div>
+            </div>
+            <div class="digit">
+                <div class="upper">:</div>
+                <div class="lower">:</div>
+            </div>
+            <div class="digit">
+                <div class="upper">0</div>
+                <div class="lower">0</div>
+            </div>
+            <div class="digit">
+                <div class="upper">0</div>
+                <div class="lower">0</div>
+            </div>
+        </div>
+        <img id="video" src="{{ url_for('video_feed') }}" style="width: 100%; height: auto;">
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
