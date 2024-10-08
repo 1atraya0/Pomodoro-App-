@@ -32,8 +32,12 @@
                 <div class="lower">0</div>
             </div>
         </div>
+        
         <img id="video" src="{{ url_for('video_feed') }}" style="width: 100%; height: auto;">
     </div>
+    <audio class="ad" controls autoplay >
+        <source src="{{ url_for('static', filename='audio/zen_music.mp3') }}" type="audio/mpeg">
+    </audio>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
